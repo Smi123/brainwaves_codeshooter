@@ -1,0 +1,26 @@
+.txt
+{
+	width:auto;
+	margin:0 11px 0 0;
+	padding:5px;
+	color:#4C4C4C;
+	font-weight:bold;
+	background-color:#FFFFFF;
+	border:1px solid #396B86;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+
+	
+.btn
+{
+	width:auto;
+	height:auto;
+	margin:0;
+	padding:4px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#AAAAAA;
+	cursor:pointer;
+}
