@@ -41,11 +41,7 @@
 		$name=$_POST['name'];
 		$email=$_POST['email'];
 		$password=$_POST['password'];
-		//$gender=$_POST['gender'];
-		//if($gender=="Male")
-		//	$photo="profile_pic/male.png";
-		//else
-			//$photo="profile_pic/female.png";
+
 		$sql="insert into sign_up values('$name','$email',PASSWORD('$password'))";
 		if(!updatedb($sql))
 		{
@@ -58,11 +54,10 @@
 		}
 		$sql="select * from sign_up where email='$email' and password=PASSWORD('$password')";
 		$account=getdb($sql);
-		//$sql="insert into profile values('".$account[0]['id']."','$name','','','$gender','','','','','','$photo')";
-		//updatedb($sql);
+	
 		$sub="Thank You for registering in My Friend Circle";
 		$msg="Please follow the link to activate your account\n\nhttp://127.0.0.1/Security%20Bankit/confirm.php?id=".$account[0]['id'];
-		//mail($email,$sub,$msg,"FROM:My Friend Circle<no-reply@myfriendcircle.com>");
+		
 		?>
 		<script type="text/javascript">
 			alert("Account has been created. Please follow the link sent to your mail.");
@@ -79,7 +74,7 @@
 	<table width="100%">
 		<tr>
 			<th rowspan="2">
-				<img src="images/circle.jpg" width="550px" height="400px">
+				<img src="images/Recruitment-ppt-background.jpg" width="350px" height="200px">
 			</th>
 			<th valign="top">
 				<h1 style="text-align:left;">Sign In</h1>

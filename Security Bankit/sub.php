@@ -34,13 +34,19 @@
     &nbsp;
       <div class="container">
       <ul class="nav nav-pills">
-        <li><a href="#">Payment/Transfer</a></li>
-        <li><a href="#">Bill Payment</a></li>
+        <li><a href="pay.php">Payment/Transfer</a></li>
+		
+        <li><a href="bill.php">Bill Payment</a></li>
+		 <li><a href="dd.php">Demand Draft</a></li>
         <li><a href="#">E-Tax</a></li>
         <li><a href="#">E-Cards</a></li>
-      </ul>
-    </div>
-   
+		<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+
+  
+  
     <script src="js/jquery-1.11.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>

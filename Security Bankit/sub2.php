@@ -27,11 +27,10 @@
             <li><a href="#">Delete Account</a></li>                        
           </ul>
         </li>
-        <li><a href="#">Menu 2</a></li>
-        <li><a href="#">Menu 3</a></li>
+        
       </ul>
     </div>
     
-   ac
+  
   </body>
 </html>

@@ -1,6 +1,6 @@
 
     
-    <div class="container">
+    <div class="container" >
      <div class="col-sm-6 col-md-3">
       <a href="sub.php" class="thumbnail">
          <img src="images/Axis-Bank-logo.png" 
